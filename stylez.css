@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* parte 1*/
+
+body{
+    background-image: url(img/fons.jpg);
+}
+
+.cap{
+    height: 589px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+.back{
+    margin: -100px 0px 0px 640px;
+    animation: canvi
+
+}
+
+.gris{
+    color: grey;
+}
+
+@keyframes canvi{
+    0%{background-image: url(img/ani/back.png);}
+    12%{background-image: url(img/ani/bean.png);}
+    25%{background-image: url(img/ani/bond.png);}
+    32%{background-image: url(img/ani/ghost.png);}
+    45%{background-image: url(img/ani/pulp.png);}
+    52%{background-image: url();}
+    65%{background-image: url();}
+    72%{background-image: url();}
+    85%{background-image: url();}
+    100%{background-image: url();}
+    
+}
+
+
+
+
+/* parte 2*/
+
+
+.cos{
+    height: 780px;
+}
+
+.coches{
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0px 310px 0px 310px;
+}
+
+:hover .caja1{
+    rotate: 360deg;
+    transition: 0.5s;
+
+}
+
+.caja1{
+    height: 200px;
+    width: 250px;
+    background-color: black;
+    background-image: url(img/small/small_pulp.jpg);
+}
+
+.nom1{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja2{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja2{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(159, 34, 34);
+    background-image: url(img/small/small_taxi.jpg)
+}
+
+.nom2{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja3{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja3{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(0, 255, 247);
+    background-image: url(img/small/small_bond.jpg);
+}
+
+.nom3{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja4{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja4{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(0, 145, 255);
+    background-image: url(img/small/small_ghost.jpg);
+}
+
+.nom4{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja5{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja5{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(102, 255, 0);
+    background-image: url(img/small/small_bean.jpg);
+}
+
+.nom5{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja6{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja6{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(34, 15, 83);
+    background-image: url(img/small/small_back.jpg);
+}
+
+.nom6{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja7{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja7{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(255, 251, 0);
+    background-image: url(img/small/small_rider.jpg);
+}
+
+.nom7{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja8{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja8{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(255, 0, 149);
+    background-image: url(img/small/small_team.jpg);
+}
+
+.nom8{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+:hover .caja9{
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+.caja9{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(209, 111, 255);
+    background-image: url(img/small/small_break.jpg);
+}
+
+.nom9{
+    height: 40px;
+    background-color: white;
+    margin: 180px 0px 0px 0px;
+}
+
+
+
+
+.cos ul{
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.cos li{
+    display: block;
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+    
+    text-align: center;
+    margin: 0px 0px 20px 15px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* parte 3*/
+
+
+.peu{
+    height: 220px;
+}
+
+.logo{
+    margin: 0px 0px 0px 1000px;
+}
+
+
+
+
+
