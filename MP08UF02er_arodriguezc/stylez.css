@@ -22,7 +22,7 @@ h1{
 
 .back{
     margin: -100px 0px 0px 640px;
-    animation: canvi
+    animation: canvi 12s linear;
 
 }
 
@@ -34,13 +34,13 @@ h1{
     0%{background-image: url(img/ani/back.png);}
     12%{background-image: url(img/ani/bean.png);}
     25%{background-image: url(img/ani/bond.png);}
-    32%{background-image: url(img/ani/ghost.png);}
-    45%{background-image: url(img/ani/pulp.png);}
-    52%{background-image: url();}
-    65%{background-image: url();}
-    72%{background-image: url();}
-    85%{background-image: url();}
-    100%{background-image: url();}
+    32%{background-image: url(img/ani/break.png);}
+    45%{background-image: url(img/ani/ghost.png);}
+    52%{background-image: url(img/ani/pulp.png);}
+    65%{background-image: url(img/ani/rider.png);}
+    72%{background-image: url(img/ani/taxi.png);}
+    85%{background-image: url(img/ani/team.png);}
+    100%{background-image: url(img/ani/back.png);}
     
 }
 
@@ -65,12 +65,13 @@ h1{
 :hover .caja1{
     rotate: 360deg;
     transition: 0.5s;
-
+    opacity: 100%;
 }
 
 .caja1{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: black;
     background-image: url(img/small/small_pulp.jpg);
 }
@@ -84,11 +85,13 @@ h1{
 :hover .caja2{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja2{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(159, 34, 34);
     background-image: url(img/small/small_taxi.jpg)
 }
@@ -102,11 +105,13 @@ h1{
 :hover .caja3{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja3{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(0, 255, 247);
     background-image: url(img/small/small_bond.jpg);
 }
@@ -120,11 +125,13 @@ h1{
 :hover .caja4{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja4{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(0, 145, 255);
     background-image: url(img/small/small_ghost.jpg);
 }
@@ -138,11 +145,13 @@ h1{
 :hover .caja5{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja5{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(102, 255, 0);
     background-image: url(img/small/small_bean.jpg);
 }
@@ -156,11 +165,13 @@ h1{
 :hover .caja6{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja6{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(34, 15, 83);
     background-image: url(img/small/small_back.jpg);
 }
@@ -174,11 +185,13 @@ h1{
 :hover .caja7{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja7{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(255, 251, 0);
     background-image: url(img/small/small_rider.jpg);
 }
@@ -192,11 +205,13 @@ h1{
 :hover .caja8{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja8{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(255, 0, 149);
     background-image: url(img/small/small_team.jpg);
 }
@@ -210,11 +225,13 @@ h1{
 :hover .caja9{
     rotate: 360deg;
     transition: 0.5s;
+    opacity: 100%;
 }
 
 .caja9{
     height: 200px;
     width: 250px;
+    opacity: 50%;
     background-color: rgb(209, 111, 255);
     background-image: url(img/small/small_break.jpg);
 }
